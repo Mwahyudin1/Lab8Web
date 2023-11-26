@@ -43,7 +43,7 @@
   ![Imgur-12](https://i.imgur.com/pKtI71C.png)
 
 - Menambahkan data `create`, lalu buat file baru dengan nama `tambah.php`.
-  ![Imgur-13](https://i.imgur.com/pKtI71C.png)
+  ![Imgur-13](https://i.imgur.com/WmDbmzp.png)
   ![Imgur-14](https://i.imgur.com/0UliST2.png)
   ![Imgur-15](https://i.imgur.com/APuFMhO.png)
   ![Imgur-16](https://i.imgur.com/KPwb5I0.png)

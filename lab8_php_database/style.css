@@ -1,0 +1,146 @@
+/* style index.php */
+body {
+  font-family: cursive;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+}
+
+.container {
+  width: 60%;
+  margin: 0 auto;
+  border: 2px solid darkgray;
+  border-radius: 5px;
+  box-shadow: 0px 0px 20px 0px #00000057;
+}
+
+h1 {
+  text-align: center;
+  color: #333;
+}
+
+.main {
+  margin-top: 20px;
+}
+
+.tambah {
+  background-color: darkgrey;
+  color: #333;
+  border-radius: 15px;
+  margin: 0 25px;
+  padding: 0 10px;
+  text-decoration: none;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 15px;
+}
+
+table th,
+table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: center;
+}
+
+table th {
+  background-color: #0085ff;
+  color: white;
+}
+
+table tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+table tr:hover {
+  background-color: #f1f1f1;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+.aksi {
+  text-align: center;
+}
+
+.aksi a {
+  padding: 0 10px;
+  text-decoration: none;
+  color: #333;
+}
+
+.aksi a:hover {
+  color: #ff0000;
+  text-decoration: underline;
+}
+
+/* style tambah.php */
+.container-tambah {
+  max-width: 25%;
+  border: 2px solid #c0c0c0;
+  box-shadow: -5px 6px 11px 0 #4141419e;
+  border-radius: 5px;
+  margin: 0 auto;
+  padding: 1rem;
+}
+
+.input label {
+  text-align: left;
+  display: block;
+  margin-bottom: 5px;
+}
+
+.input input {
+  display: block;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.input {
+  margin-bottom: 10px;
+}
+
+.submit input {
+  background-color: #008effba;
+  color: white;
+  padding: 5px 10px;
+  border-radius: 5px;
+  border: none;
+}
+
+/* style ubah */
+.container-ubah {
+  max-width: 25%;
+  border: 2px solid #c0c0c0;
+  box-shadow: -5px 6px 11px 0 #4141419e;
+  border-radius: 5px;
+  margin: 0 auto;
+  padding: 1rem;
+}
+
+.container-header {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.pilih a {
+  text-decoration: none;
+  color: white;
+  background-color: #0085ff;
+  border-radius: 5px;
+  padding: 3px 10px;
+}
+
+.pilih a:hover {
+  text-decoration: underline;
+}
+
+footer {
+  text-align: center;
+}

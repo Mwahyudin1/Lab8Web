@@ -30,74 +30,16 @@ if (isset($_POST['submit'])) {
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>Tambah Barang</title>
-
-    <!-- style css -->
-    <style>
-        body {
-            font-family: cursive;
-            background-color: #f4f4f4;
-            margin: 0;
-            padding: 0;
-        }
-
-        .container {
-            width: 80%;
-            margin: 0 auto;
-            padding: 20px 0;
-        }
-
-        h1 {
-            text-align: center;
-            color: #333;
-        }
-
-        .main {
-            margin: 0 auto;
-        }
-
-        .input {
-            margin-bottom: 10px;
-        }
-
-        label {
-            display: block;
-            margin-bottom: 5px;
-            color: #333;
-        }
-
-        input[type="text"],
-        select {
-            width: 100%;
-            padding: 8px;
-            border: 1px solid #ccc;
-            border-radius: 4px;
-            box-sizing: border-box;
-        }
-
-        input[type="file"] {
-            border: none;
-            padding: 6px 0;
-        }
-
-        .submit input {
-            padding: 10px 20px;
-            background-color: #007bff;
-            color: white;
-            border: none;
-            border-radius: 4px;
-            cursor: pointer;
-        }
-
-        .submit input:hover {
-            background-color: #0056b3;
-        }
-    </style>
 </head>
 <body>
-    <div class="container">
+    <?php
+        include('../../Lab9Web/lab9_php_modular/header.php')
+    ?>
+    <div class="container-tambah">
         <h1>Tambah Barang</h1>
-        <div class="main">
+        <div class="main-tambah">
             <form action="tambah.php" method="post" enctype="multipart/form-data">
                 <div class="input">
                     <label>Nama Barang</label>
@@ -133,5 +75,8 @@ if (isset($_POST['submit'])) {
             </form>
         </div>
     </div>
+    <?php
+        include('../../Lab9Web/lab9_php_modular/footer.php')
+    ?>
 </body>
 </html>

@@ -50,10 +50,12 @@ function is_select($var, $val) {
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ubah Barang</title>
 
+    <link rel="stylesheet" href="style.css">
+
     <!-- style css -->
-    <style>
+    <!-- <style>
             body {
-            font-family: Arial, sans-serif;
+            font-family: cursive;
             background-color: #f4f4f4;
             margin: 0;
             padding: 0;
@@ -111,22 +113,14 @@ function is_select($var, $val) {
             background-color: #0056b3;
         }
 
-        @media screen and (max-width: 600px) {
-            .container {
-                width: 90%;
-            }
-
-            input[type="text"],
-            select,
-            input[type="file"],
-            .submit input {
-                width: 100%;
-            }
-        }
-    </style>
+        
+    </style> -->
 </head>
 <body>
-    <div class="container">
+    <?php
+        include('../../Lab9Web/lab9_php_modular/header.php')
+    ?>
+    <div class="container-ubah">
         <h1>Ubah Barang</h1>
         <div class="main">
             <form action="ubah.php" method="post" enctype="multipart/form-date">
@@ -164,6 +158,10 @@ function is_select($var, $val) {
                 </div>
             </form>
         </div>
+
     </div>
+    <?php
+        include('../../Lab9Web/lab9_php_modular/footer.php')
+    ?>
 </body>
 </html>
